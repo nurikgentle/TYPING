@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+input {
+    position: absolute;
+    top: 30%;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+#btn1 {
+    top: 38%;
+    width: 100px;
+    cursor: pointer;
+}
+.output {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    top: 320px;
+    border-radius: 20px;
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+h1 {
+    font-size: 15px;
+    position: absolute;
+    top: 386px;
+    left: 5px;
+    z-index: 1;
+}
+.atanozurain {
+    position: relative;
+}
